@@ -1,7 +1,7 @@
 # Practical C++: Learn C++ Basics Step by Step
 Welcome to Practical C++, a repository designed to help you understand the fundamentals of C++ programming and improve your coding practices.
 
-#Best Practices in C++
+# Best Practices in C++
 Follow Naming Conventions
 
 Use consistent and descriptive naming styles (e.g., camelCase for variables and functions, PascalCase for classes).
