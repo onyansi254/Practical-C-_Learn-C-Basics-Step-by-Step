@@ -24,3 +24,22 @@ void Robot::print_info()
         cout << "Version number: " << version_number << endl;
         cout << "Temperaure: " << internal_temperature << endl;
     }
+
+
+// Inheritance
+RobotArm::RobotArm(string name, int version_number, double reach)
+        : Robot(name, version_number), reach(reach)
+{
+
+}
+
+void RobotArm::pick_object(double x, double y)
+{
+    cout <<"Pick object from (" << x << "," << y << ")" << endl;
+}
+        
+        
+void RobotArm::place_object(double x, double y)
+{
+    cout <<"Place object to (" << x << "," << y << ")" << endl;
+}
